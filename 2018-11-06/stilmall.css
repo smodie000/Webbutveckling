@@ -1,0 +1,70 @@
+.container {
+   margin:auto;
+
+}
+.content {
+  display:flex;
+
+}
+
+.links {
+
+   display:flex;
+   flex-direction:column;
+   background-color: lightblue;
+   padding: 10px;
+   white-space:normal
+   justify-content:space-around;
+
+
+}
+
+.vanster {
+
+  text-align: center;
+background-color: lime;
+  padding: 10px;
+  flex-basis:95%;
+
+
+}
+
+.hoger {
+  background-color: red;
+  padding:10px;
+  flex-basis:5%;
+
+}
+.a {
+  font-family: 'Special Elite', cursive;
+  background-color: coral;
+ border-style:dotted;
+margin:10px;
+
+}
+.b {
+  font-family: VT323, monospace;
+  background-color: coral;
+ border-style:dotted;
+margin:10px;
+}
+.c {
+  font-family: Srisakdi, cursive;
+  background-color: coral;
+ border-style:dotted;
+margin:10px;
+}
+header,footer {
+  display:flex;
+  background-color: yellow;
+  justify-content: center;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+.content {
+  flex-direction: column;
+
+    }
+}
