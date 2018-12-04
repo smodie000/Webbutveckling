@@ -4,10 +4,11 @@
 <meta http-equiv="refresh" content="4" >
 <style>
 div {
-    width: 100px;
-    height: 100px;
+
+    width: 400px;
+    height: 400px;
     background-color: red;
-    position: relative;
+    position:fixed;
     -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
     animation-name: example;
@@ -25,11 +26,15 @@ div {
 
 /* Standard syntax */
 @keyframes example {
-    0%   {background-color:black; left:0px; top:0px;}
+    0%   {background-color:orange; left:0px; top:0px;}
     25%  {background-color:grey; left:800px; top:0px;}
     50%  {background-color:cyan; left:800px; top:800px;}
     75%  {background-color:blue; left:1530px; top:800px;}
-    100% {background-color:black; left:0px; top:0px;}
+    100% {background-color:orange; left:0px; top:0px;}
+}
+
+body {
+  background-image: url(https://i.pinimg.com/originals/4c/2d/e5/4c2de5df7ec88fb93d5f89cd68600ddd.jpg);
 }
 </style>
 </head>

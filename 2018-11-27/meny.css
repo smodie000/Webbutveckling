@@ -1,0 +1,44 @@
+nav {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: purple;
+	overflow: hidden;
+	padding: 10px;
+}
+
+
+/* Style the links inside the navigation bar */
+
+nav a {
+	float: left;
+	color: white;
+	padding: 10px;
+	/* Ingen understrykning, annars standard för länkar i de flesta webbläsare */
+	text-decoration: none;
+	font-size: 17px;
+}
+
+
+/* Change the color of links on hover */
+
+nav a:hover {
+	background-color: grey;
+	color: black;
+}
+
+
+/* Add a color to the active/current link */
+
+nav a.active {
+	background-color: black;
+	color: white;
+}
+
+@media only screen and (max-width: 800px) {
+	nav {
+		/* Om skärmen är liten hamnar navigationsmenyn överst */
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+}

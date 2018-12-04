@@ -1,0 +1,58 @@
+.navbar {
+    overflow: hidden;
+    display:flex;
+    flex-direction:column;
+
+    background-color: #cc0000;
+    flex-basis:10%
+
+    top: 0;
+
+}
+
+
+.navbar a {
+    float: left;
+    display: flex;
+    flex-direction:column;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+
+
+body {
+/*  background-image: url("https://cdn.hipwallpaper.com/i/0/13/ghwGuL.jpg") ;*/
+background-image: url("http://www.tabletwallpapers.org/download/liverpool-logo-wallpaper_1024x768.png");
+
+}
+
+.content {
+  display:flex;
+  flex-direction:row;
+  justify-content: flex-start;
+  margin:auto;
+
+}
+
+.hoger {
+
+background-color:green;
+ flex-basis:50%;
+}
+.mitten{
+  display:flex;
+  flex-direction:row;
+  flex-basis:50%;
+  background-color:blue;
+
+
+}
