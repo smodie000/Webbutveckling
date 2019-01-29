@@ -1,5 +1,13 @@
 
-body
+.links a {
+  color:black;
+}
+
+body {
+padding: 0;
+margin: 0;
+}
+
 
 .container {
 
@@ -80,10 +88,12 @@ margin:10px;
   border-style:ridge;
 }
 header,footer {
+  align-items: center;
   padding:20px;
   display:flex;
   background-color: #a6a6a6;
   justify-content: space-between;
+  flex-direction:row;
 
   border-color:black;
   border-style:groove;
@@ -118,6 +128,7 @@ background-color: #a6a6a6;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   border-radius:20px;
+
 }
 .dropbtn {
   color: black;
@@ -127,6 +138,7 @@ background-color: #a6a6a6;
   border-color:black;
   background-color: #a6a6a6;
   border-radius:20px;
+
 }
 .dropdown-content a {
 
@@ -134,6 +146,8 @@ background-color: #a6a6a6;
  padding: 12px 16px;
  text-decoration: none;
  display: block;
- border-radius:20px;
+
+ background-color:#9494b8;
+
 }
 .meny:hover .dropdown-content {display: block;}
