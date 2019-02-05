@@ -1,0 +1,70 @@
+.content {
+  display:flex;
+flex-direction:row;
+
+
+
+}
+
+
+body {
+  padding:0px;
+  margin:0px;
+}
+footer,header {
+  align-items: center;
+  padding:20px;
+  display:flex;
+  justify-content: space-between;
+  flex-direction:column;
+
+  border-color:black;
+  border-style:groove;
+  background-color: #a6a6a6;
+
+  margin-left:0px;
+  margin-right:0px;
+
+}
+
+
+.info-links {
+  justify-content: center;
+  display:flex;
+  flex-direction:column;
+
+  flex:1 1 70%;
+
+  background-color:#333333;
+
+}
+.a,.b {
+    padding:10px;
+    margin:10px;
+    background-color:orange;
+    border-color:white;
+    border-radius:50px;
+    border-style:ridge;
+    font-family: 'Special Elite', cursive;
+
+}
+.hoger {
+  justify-content: center;
+  display:flex;
+  flex-direction:row;
+  
+  flex:1 1 40%;
+  background-color:#333333;
+
+}
+
+.hoger-ram,.vanster-ram,.mitten-ram{
+display:flex;
+flex-direction:row;
+background-color: #a6a6a6;
+flex: 1 1 1%;
+border-color:black;
+border-style:groove;
+border-top:0px;
+border-bottom:0px;
+}
