@@ -1,8 +1,8 @@
-h2{
 
-}
 .links a {
   color:black;
+  text-decoration:none;
+
 }
 
 body {
@@ -11,10 +11,7 @@ margin: 0;
 }
 
 
-.container {
 
-
-}
 .content {
   display:flex;
 
@@ -26,9 +23,10 @@ margin: 0;
    flex-direction:column;
 
    padding: 10px;
-   white-space:normal
-   justify-content:space-around;
-   background-color: grey;   /* grå bakgrund med en grå border där bottom och top */
+   white-space:normal;
+   background-color:gray;
+
+     /* grå bakgrund med en grå border där bottom och top */
    border-color:black;        /*  border inte syns */
    border-style:groove;
    border-bottom-style:none;
@@ -58,36 +56,16 @@ background-color:#333333;
   flex-basis:5%;
 
 }
-.a {
-  font-family: 'Special Elite', cursive;
 
+.a,.b,.c,.d,.e {
 
-margin:10px;
-
-}
-
-.b {
-  font-family: 'Special Elite', cursive;
-
-
-margin:10px;
-}
-.c {
-  font-family: 'Special Elite', cursive;
-
-
-margin:10px;
-}
-.d {
-  font-family: 'Special Elite', cursive;
-
-  margin: 10px;
-}
-.a,.b,.c,.d {
   background-color:orange;
   border-color:white;
   border-radius:50px;
   border-style:ridge;
+  font-family: 'Special Elite', cursive;
+  margin: 10px;
+
 }
 header,footer {
   align-items: center;
