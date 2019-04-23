@@ -12,6 +12,8 @@ flex-direction:row;
 body {
   padding:0px;
   margin:0px;
+
+
 }
 footer,header {
   align-items: center;
@@ -30,6 +32,7 @@ footer,header {
 }
 
 header h2 {
+
 transform: translateX(50vw);
 background-color:red;
 }
@@ -45,7 +48,7 @@ background-color:red;
   background-color:#333333;
 
 }
-.a,.b,.c,.d {
+.a,.b,.c,.d,.e {
     padding:10px;
     margin:10px;
     background-color:orange;
@@ -88,11 +91,13 @@ border-bottom:0px;
   border-color:black;
   border-style:groove;
   border-top:none;
+  
 }
 ul {
  list-style-type:none;
  margin:0;
  padding:0;
+
 }
 ul li a  {
   text-decoration:none;
@@ -102,6 +107,7 @@ ul li a  {
   padding:3em;
   background:rgba(255,255,255,0.35);
   color:black;
+
 }
 img {
 

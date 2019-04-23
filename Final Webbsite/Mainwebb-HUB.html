@@ -63,5 +63,22 @@
  </div>
 
 <footer> Made by Jonathan :) </footer>
+
+<script>
+       (function(){
+         var menu = document.queryselector('ul'),
+         menulink = document.queryselector('img');
+
+         menulink.addEventlistener('click', function(e) {
+           menu.classList.toggle('active');
+           e.preventDefault();
+       } );
+     })();
+
+
+</script>
+
+
+
 </body>
 </html>

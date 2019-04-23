@@ -78,6 +78,18 @@ While Respawn had been working on efforts towards a second sequel in the Titanfa
 
          <footer> Footer </footer>
 
+         <script>
+                (function(){
+                  var menu = document.queryselector('ul'),
+                  menulink = document.queryselector('img');
 
+                  menulink.addeventlistener('click', function(e){
+                    menu.classlist.toggle('active');
+                    e.preventDefault();
+                }  ));
+              })();
+
+
+         </script>
 </body>
 </html>
