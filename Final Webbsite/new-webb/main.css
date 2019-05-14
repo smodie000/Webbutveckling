@@ -10,45 +10,26 @@ body {
     
   }
   
-  .overlay {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9);
-    overflow-x: hidden;
-    transition: 0.5s;
-  }
-  
-  .overlay-content {
+  .topnav {
     position: relative;
-    top: 25%;
-    width: 100%;
+    background-color: #333;
+    overflow: hidden;
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
     text-align: center;
-    margin-top: 30px;
-  }
-  
-  .overlay a {
-    padding: 8px;
+    padding: 14px 16px;
     text-decoration: none;
-    font-size: 36px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
+    font-size: 17px;
   }
-  
-  .overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
   }
-  
-  .overlay .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
   }
   
   @media screen and (max-height: 450px) {
@@ -62,12 +43,22 @@ body {
   }
 
   .pitch {
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    background-image:url("../images/pitch.png");
-    background-repeat:no-repeat;
+    
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      
+
+      
+    }
+    .pitch img {
+      width: 100%;
+      height: auto;
+    }
+    
+    
+    
     
     /*width:800px;
     height:1600px;
@@ -79,22 +70,46 @@ body {
     display:block;
     
     background-repeat:no-repeat;
-    */
+    
   }
+  */
   .ABecker{
-    display:block;
-    position:relative;
-    color:white;
-    top:165px;
-    left:769px;
-    z-index:2;
-    text-decoration:none;
-    color:white; 
+      
+      position: absolute;
+      top: 9%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .pitch a {
+      text-decoration:none;
+      color:black;
+    }
+  .AArnold {
+    position: absolute;
+      top: 24%;
+      left: 21%;
+      transform: translate(-50%, -50%);
   }
-  .AArnold
-  .ABecker a {
-    text-decoration:none;
-    color:black;
-
+  .Van-Dijk{
+    Position:absolute;
+    top:21%;
+    left:40%;
+    transform: translate(-50%, -50%);
   }
+  .matip {
+    position:absolute;
+    top:21%;
+    left:60%;
+    transform: translate(-50%, -50%);
+  }
+   .robertson {
+    position:absolute;
+    top:24%;
+    left:79%;
+    transform: translate(-50%, -50%);
+  }
+  .milner{
+    
+  }
+   
     
