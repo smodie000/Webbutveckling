@@ -74,11 +74,19 @@ body {
   }
   */
   .ABecker{
-      
       position: absolute;
       top: 9%;
       left: 50%;
       transform: translate(-50%, -50%);
+    }
+    .becker-picture{
+      display:none;
+  
+    position:absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
     }
     .pitch a {
       text-decoration:none;
@@ -89,30 +97,94 @@ body {
       top: 24%;
       left: 21%;
       transform: translate(-50%, -50%);
+      z-index: 3;
   }
-  .Van-Dijk{
-    Position:absolute;
+  .aarnold-picture{
+    display:none;
+  
+    position:absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .AArnold:hover .aarnold-picture {
+    display: block;
+    z-index: 2;
+  }
+
+  .dijk{
+    position:absolute;
     top:22%;
-    left:40%;
+    left:41%;
     transform: translate(-50%, -50%);
+    z-index: 3;
   }
+
+  .dijk-picture{
+    display:none;
+  
+    position:absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dijk:hover .dijk-picture {
+    /*color:white;*/
+    display:block;
+    z-index:2;
+  }
+
+ 
   .matip {
     position:absolute;
     top:22%;
     left:60%;
     transform: translate(-50%, -50%);
+    z-index: 4;
+  }
+  .matip-picture{
+    display:none;
+  
+    position:absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .matip:hover .matip-picture {
+    /*color:white;*/
+    display:block;
+    z-index:2;
   }
    .robertson {
     position:absolute;
     top:24%;
     left:79%;
     transform: translate(-50%, -50%);
+    z-index: 3;
+  }
+  .robertson-picture{
+    display:none;
+  
+    position:absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .robertson:hover .robertson-picture {
+    /*color:white;*/
+    display:block;
+    z-index:2;
   }
   .milner{
     position:absolute;
     top:35%;
     left:20%;
     transform: translate(-50%, -50%);
+    z-index: 2;
   }
 
   .milner-picture{
@@ -124,15 +196,100 @@ body {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
-  .milner a:hover .milner-picture {
+  .milner:hover .milner-picture {
     /*color:white;*/
     display:block;
+    z-index:2;
   }
   .henderson{
     position:absolute;
     top:32%;
     left:50%;
     transform: translate(-50%, -50%);
+    z-index:2;
+  }
+  .henderson-picture{
+    display:none;
+  
+    position:absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .henderson:hover .henderson-picture {
+    display: block;
   }
   
+  .Fabinho{
+    position:absolute;
+    top:35%;
+    left:75%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  .Fabinho-picture{
+    display:none;
+    position:absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .Fabinho:hover .Fabinho-picture{
+    display: block;
+    z-index: 2;
+  }
+  .Firmino{
+    position:absolute;
+    top:45%;
+    left:75%;
+    transform: translate(-50%, -50%);
+  }
+  .Firmino-picture{
+    display:none;
+    position:absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .Firmino:hover .Firmino-picture{
+    display: block;
+  }
+  .Salah{
+    position:absolute;
+    top:42%;
+    left:50%;
+    transform: translate(-50%, -50%);
+  }
+  .Salah-picture{
+    display:none;
+    position:absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .Salah:hover .Salah-picture{
+    display: block;
+  }
+  .mane{
+    position:absolute;
+    top:45%;
+    left:25%;
+    transform: translate(-50%, -50%);
+  }
+  .mane-picture{
+    display:none;
+    position:absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .mane:hover .mane-picture{
+    display: block;
+    z-index;1
+  }
     
